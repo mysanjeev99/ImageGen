@@ -28,6 +28,16 @@ After creating your token, you'll need to log in to the Hugging Face CLI to auth
 - Install the Hugging Face CLI tool:
   ```bash
   pip install huggingface_hub
+  ```
+
+## Dependencies
+
+Before running the code, make sure to install the required dependencies. You can install them by running the following commands:
+
+```bash
+pip install torch diffusers transformers pillow ipywidgets
+```
+
 ## Setup Instructions
 
 ### 1. Clone the Repository
